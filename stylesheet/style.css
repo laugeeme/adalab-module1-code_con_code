@@ -1,0 +1,30 @@
+.footer-section {
+    font-family: OpenSans, sans-serif;
+    background-color: #ffffff;
+    border: solid 1px #b8b8b9;
+}
+
+.copy {
+    color:#b8b8b9;
+    line-height: 5;
+}
+
+.footer-text {
+    display: block;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #54585a;
+    line-height: 1.5;
+}
+
+.footer-logo {
+    width: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
