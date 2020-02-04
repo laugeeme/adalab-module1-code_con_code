@@ -12,5 +12,13 @@
 .in-page-links {
     text-decoration: none;
     color: #54585a;
+}
    
+.footer-text {
+    display: block;
+    text-align: justify;
+}
+
+.logo-adalab-bottom {
+    height: 50px;
 }
