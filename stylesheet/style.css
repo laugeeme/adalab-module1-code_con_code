@@ -1,9 +1,11 @@
 .coolgrey {
-    background-color: #b8b8b9;
-    padding: 30px 15px 45px;
+    background-color: rgba(184, 184, 185,0.2);
+      padding: 30px 15px 45px;
+      font-family: OpenSans, sans-serif;
 }
 
 .coolgrey h4{
+    font-family: Rubik; 
     font-size: 22px;
     font-weight: 500;
     line-height: 2.05;
