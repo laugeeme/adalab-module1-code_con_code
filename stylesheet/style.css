@@ -1,14 +1,25 @@
+
 .coolgrey {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 579px;
     background-color: rgba(184, 184, 185,0.2);
-      padding: 30px 15px 45px;
-      font-family: OpenSans, sans-serif;
+    padding: 30px 15px 45px;
+    font-family: 'Open Sans', sans-serif;
+      
 }
 
 .coolgrey h4{
-    font-family: Rubik; 
+    height: 45px;
+    font-family: 'Rubik', sans-serif;
     font-size: 22px;
     font-weight: 500;
     line-height: 2.05;
     text-align: center;
     color: #099d8d;
+}
+.coolgrey p{
+    text-align: center;
+    height: 192px;
 }
