@@ -132,7 +132,7 @@ html {
     transform: translate(35%, 0);
 }
 .plaura{
-    background: url(../img/herohero.jpg) no-repeat;
+    background: url() no-repeat;
     background-size: cover;
 }
 .pelvira{
@@ -198,7 +198,8 @@ html {
     }
     .lefty {
         justify-content: flex-start;
-    }.righty {
+    }
+    .righty {
         justify-content: flex-end;
     }
     .even {
