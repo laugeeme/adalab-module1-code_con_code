@@ -5,6 +5,7 @@ html {
     padding: 0;
     box-sizing: border-box;
 }
+
 .hero {
     background-image: url(../img/heroimg.png);
     background-repeat: no-repeat;
@@ -68,5 +69,160 @@ html {
 }   
     .slogan h3 {
     font-size:2.6rem;
+}
+}
+
+/* ---QUIENES SOMOS--- */
+.e-container {
+    margin: 0 15px;
+}.team-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.team-container h3 {
+    text-align: center;
+    margin-top:9%;
+    margin-bottom: 5%;
+    font-family: rubik;
+    line-height: 1.88;
+    font-size: 1.4rem;
+    color: #099d8d;
+}
+.team {
+    margin-top: 2%;
+    margin-bottom: 7%;
+    padding: 3%;
+    text-align: center;
+}
+.rrss-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.rrss {
+    padding: 0.5rem;
+    max-height: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem; 
+}
+.twit {
+    background: url(../img/twitter.png) no-repeat;
+    background-size: 100%;
+}
+.linked {
+    background: url(../img/linkedin.png) no-repeat;
+    background-size: 100%;
+}
+.git {
+    background: url(../img/github.png) no-repeat;
+    background-size: 100%;
+}
+.email {
+    background: url(../img/email.png) no-repeat;
+    background-size: 100%;
+}
+.pic {
+    height: 30vh;
+    width: 50vw;
+    border-radius: 0.25rem;
+    border: 0.25rem solid rgba(00, 00, 00, 0.3);
+    position: relative;
+    transform: translate(35%, 0);
+}
+.plaura{
+    background: url(../img/herohero.jpg) no-repeat;
+    background-size: cover;
+}
+.pelvira{
+    background: url(../img/herohero.jpg) no-repeat;
+    background-size: cover;
+}
+.plidia{
+    background: url(../img/herohero.jpg) no-repeat;
+    background-size: cover;
+}
+.pmercy{
+    background: url(../img/herohero.jpg) no-repeat;
+    background-size: cover;
+}
+.pana{
+    background: url(../img/herohero.jpg) no-repeat;
+    background-size: cover;
+}
+.txt {
+    font-family: Open Sans, sans serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #54585a;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.txt h5 {
+    color: black;
+    font-size: 1.15rem;
+    font-weight: lighter;
+    line-height: 2.35;
+}
+@media all and (min-width: 768px) {
+    .e-container {
+        margin: 0 35px;
+    }
+    .team-container h3 {
+        margin-top:8%;
+        margin-bottom: 6%;
+        line-height: 1.88;
+        font-size: 1.7rem;
+    }
+    .team {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    } 
+    .pic {
+        width: 80vw;
+        height: auto;
+        transform: none;
+    }
+    .txt {
+        font-size: 0.9rem;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        width: 190%;
+    }
+    .txt h5 {
+    font-size: 1.3rem;
+    }
+    .lefty {
+        justify-content: flex-start;
+    }.righty {
+        justify-content: flex-end;
+    }
+    .even {
+    text-align: left;
+    }
+    .odd {
+    text-align: right;
+    }
+    .elvira {
+        flex-direction: row-reverse;
+    }
+    .mercy {
+        flex-direction: row-reverse;
+    }
+    .rrss {
+    padding: 0.5rem;
+    max-height: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem; 
+    }
+    .rrss:hover {
+    padding:1.5rem;
+    max-height: 1.5rem;
+    /* ¿cómo hacer para que no afecte ésta propiedad a las cajas contiguas */
+    transition: 0.4s ease-in-out;
 }
 }
