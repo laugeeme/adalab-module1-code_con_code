@@ -6,7 +6,7 @@ html {
     box-sizing: border-box;
 }
 .hero {
-    background-image: url(../img/heroimg.png);
+    background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
