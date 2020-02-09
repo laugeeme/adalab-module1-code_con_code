@@ -1,25 +1,66 @@
+html{
+    font-size: 16px;
+}
 
 .coolgrey {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 579px;
-    background-color: rgba(184, 184, 185,0.2);
-    padding: 30px 15px 45px;
-    font-family: 'Open Sans', sans-serif;
-      
+ background-color: rgba(184, 184, 185,0.2);
+ 
 }
 
-.coolgrey h4{
-    height: 45px;
+.coolgrey-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 1.875rem;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  padding-bottom: 2.8125rem;
+
+}
+
+.coolgrey-container > div {
+    width: 100%;
+}
+
+
+.coolgrey-container h4 {
     font-family: 'Rubik', sans-serif;
     font-size: 22px;
-    font-weight: 500;
     line-height: 2.05;
-    text-align: center;
     color: #099d8d;
+    margin: 0;
 }
-.coolgrey p{
-    text-align: center;
-    height: 192px;
+.coolgrey-container p{
+    font-family: 'Open Sans', sans-serif;
+    color: #54585a;
+    line-height: 1.5;
+    margin: 0; 
+}
+
+.coolgrey-weakness {
+    padding-top: 1.875rem;
+}
+
+@media all and (min-width:768px){
+    .coolgrey-container{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start; 
+        padding-top: 2.8125rem;
+        padding-bottom: 3.75rem;
+        padding-left: 2.8125rem;
+        padding-right: 2.8125rem;
+    }
+    .coolgrey-weakness{
+        padding-top: 0rem;
+        padding-left: 1.875rem;
+    }
+}
+
+@media all and (min-width:1200px){
+    .coolgrey-weakness{
+        padding-left: 2,8125rem;
+    }
 }
