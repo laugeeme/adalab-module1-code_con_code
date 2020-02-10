@@ -61,26 +61,31 @@
     background: url(../img/Laura1.JPG) no-repeat;
     background-size: cover;
     background-position: center;
+    filter: grayscale(100%);
 }
 .pelvira{
     background: url(../img/Elvira1.JPG) no-repeat;
     background-size: cover;
     background-position: center;
+    filter: grayscale(100%);
 }
 .plidia{
     background: url(../img/Lidia1.JPG) no-repeat;
     background-size: cover;
     background-position: center;
+    filter: grayscale(100%);
 }
 .pmercy{
     background: url(../img/Mercy1.JPG) no-repeat;
     background-size: cover;
     background-position: center;
+    filter: grayscale(100%);
 }
 .pana{
     background: url(../img/Ana1.JPG) no-repeat;
     background-size: cover;
     background-position: center;
+    filter: grayscale(100%);
 }
 .txt {
     font-family: Open Sans, sans serif;
