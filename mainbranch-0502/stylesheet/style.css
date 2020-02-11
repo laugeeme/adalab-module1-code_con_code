@@ -51,7 +51,7 @@
     background: url(../img/email.png) no-repeat;
     background-size: 100%;
 }
-.pic {
+.pic img{
     border-radius: 0.25rem;
     border: 0.25rem solid rgba(00, 00, 00, 0.3);
     position: relative;
@@ -105,6 +105,7 @@
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
+        align-items: center;
     } 
     .txt {
         font-size: 0.9rem;
@@ -139,55 +140,20 @@
     margin-left: 1rem;
     margin-right: 1rem; 
     }
+    p {
+        padding-bottom:1rem;
+    }
+
+}
+
+@media all and (min-width: 1200px) {
+    .e-container {
+        margin: 0 45px;
+    }    
     .rrss:hover { 
     padding:0.8rem;
     max-height: 0.9rem;
     transition: 0.3s ease-in-out;
     }
-    .pic .plaura:hover {
-        display: none;
-    }
-    .plaura {
-        position: absolute;
-    }
-    .pic img {
-        max-width: 200px;
-    }
-    .pic .pelvira:hover {
-        display: none;
-    }
-    .pelvira {
-        position: absolute;
-    }
-    .pic img {
-        max-width: 200px;
-    }
-    .pic .plidia:hover {
-        display: none;
-    }
-    .plidia {
-        position: absolute;
-    }
-    .pic img {
-        max-width: 200px;
-    }
-    .pic .pmercy:hover {
-        display: none;
-    }
-    .pmercy {
-        position: absolute;
-    }
-    .pic img {
-        max-width: 200px;
-    }    
-    .pic .pana:hover {
-        display: none;
-    }
-    .pana {
-        position: absolute;
-    }
-    .pic img {
-        max-width: 200px;
-    }
 }
-@media all and (min-width: 1200px) {
+    
