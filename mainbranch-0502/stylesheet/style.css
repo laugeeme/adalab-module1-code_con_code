@@ -1,15 +1,17 @@
 /* ---QUIENES SOMOS--- */
 .e-container {
     margin: 0 15px;
-}.team-container {
+
+}
+.team-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .team-container h3 {
     text-align: center;
-    margin-top:9%;
-    margin-bottom: 5%;
+    margin-top:10%;
+    margin-bottom: 8%;
     font-family: rubik;
     line-height: 1.88;
     font-size: 1.4rem;
@@ -17,15 +19,15 @@
 }
 .team {
     margin-top: 2%;
-    margin-bottom: 7%;
-    padding: 3%;
+    margin-bottom: 6%;
     text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 .rrss-box {
-    display: flex;
+    display: inline;
     flex-direction: row;
     justify-content: center;
-    padding-top: 1rem;
 }
 .rrss {
     padding: 0.5rem;
@@ -50,42 +52,27 @@
     background-size: 100%;
 }
 .pic {
-    height: 30vh;
-    width: 50vw;
     border-radius: 0.25rem;
     border: 0.25rem solid rgba(00, 00, 00, 0.3);
     position: relative;
-    transform: translate(35%, 0);
+    margin: auto;
+    width: 200px;
+    height: 200px;
 }
-.plaura{
-    background: url(../img/Laura1.JPG) no-repeat;
-    background-size: cover;
-    background-position: center;
-    filter: grayscale(100%);
+.plaura img{
+    height:100%;
 }
-.pelvira{
-    background: url(../img/Elvira1.JPG) no-repeat;
-    background-size: cover;
-    background-position: center;
-    filter: grayscale(100%);
+.pelvira img{
+    height:100%;
 }
-.plidia{
-    background: url(../img/Lidia1.JPG) no-repeat;
-    background-size: cover;
-    background-position: center;
-    filter: grayscale(100%);
+.plidia img{
+    height:100%;
 }
-.pmercy{
-    background: url(../img/Mercy1.JPG) no-repeat;
-    background-size: cover;
-    background-position: center;
-    filter: grayscale(100%);
+.pmercy img{
+    height:100%;
 }
-.pana{
-    background: url(../img/Ana1.JPG) no-repeat;
-    background-size: cover;
-    background-position: center;
-    filter: grayscale(100%);
+.pana img{
+    height:100%;
 }
 .txt {
     font-family: Open Sans, sans serif;
@@ -102,6 +89,7 @@
     font-size: 1.15rem;
     font-weight: lighter;
     line-height: 2.35;
+    margin: 0;
 }
 @media all and (min-width: 768px) {
     .e-container {
@@ -118,10 +106,6 @@
         flex-direction: row;
         justify-content: flex-start;
     } 
-    .pic {
-        height: auto;
-        transform: none;
-    }
     .txt {
         font-size: 0.9rem;
         margin-top: 0%;
@@ -155,32 +139,55 @@
     margin-left: 1rem;
     margin-right: 1rem; 
     }
-    .rrss:hover {
-    padding:1.5rem;
-    max-height: 1.5rem;
-    /* ¿cómo hacer para que no afecte ésta propiedad a las cajas contiguas */
-    transition: 0.4s ease-in-out;
-}
+    .rrss:hover { 
+    padding:0.8rem;
+    max-height: 0.9rem;
+    transition: 0.3s ease-in-out;
+    }
+    .pic .plaura:hover {
+        display: none;
+    }
+    .plaura {
+        position: absolute;
+    }
+    .pic img {
+        max-width: 200px;
+    }
+    .pic .pelvira:hover {
+        display: none;
+    }
+    .pelvira {
+        position: absolute;
+    }
+    .pic img {
+        max-width: 200px;
+    }
+    .pic .plidia:hover {
+        display: none;
+    }
+    .plidia {
+        position: absolute;
+    }
+    .pic img {
+        max-width: 200px;
+    }
+    .pic .pmercy:hover {
+        display: none;
+    }
+    .pmercy {
+        position: absolute;
+    }
+    .pic img {
+        max-width: 200px;
+    }    
+    .pic .pana:hover {
+        display: none;
+    }
+    .pana {
+        position: absolute;
+    }
+    .pic img {
+        max-width: 200px;
+    }
 }
 @media all and (min-width: 1200px) {
-.plaura:hover {
-    background-image: url(../img/Laura2.JPG);
-    transition: 0.4s ease-in-out;
-}
-.pelvira:hover {
-    background-image: url(../img/Elvira2.JPG);
-    transition: 0.4s ease-in-out;
-}
-.plidia:hover {
-    background-image: url(../img/Lidia2.JPG);
-    transition: 0.4s ease-in-out;
-}
-.pmercy:hover {
-    background-image: url(../img/Mercy2.JPG);
-    transition: 0.4s ease-in-out;
-}
-.pana:hover {
-    background-image: url(../img/Ana2.JPG);
-    transition: 0.4s ease-in-out;
-}
-}
