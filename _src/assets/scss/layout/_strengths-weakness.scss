@@ -1,0 +1,43 @@
+.coolgrey {
+    background-color: rgba(184, 184, 185, 0.2);
+}
+
+
+.coolgrey-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 1.875rem;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    padding-bottom: 2.8125rem;
+}
+
+
+.coolgrey-container>div {
+    width: 100%;
+}
+
+
+.coolgrey-container h4 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.37rem;
+    line-height: 2.05;
+    color: #099d8d;
+    margin: 0;
+}
+
+
+.coolgrey-container p {
+    font-family: 'Open Sans', sans-serif;
+    color: #54585a;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+.coolgrey-weakness {
+    padding-top: 1.875rem;
+}
