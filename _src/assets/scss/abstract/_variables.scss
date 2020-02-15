@@ -1,0 +1,32 @@
+/* COLORS */
+
+$colorLight:#14d9c4;
+$colorDark: #099D8D;
+$standardBackground:#ffffff;
+$sectionBackground: #B8B8B9;
+$fontMain: #54585A;
+$fontSecond: #000000;
+
+
+
+/* FONTS */
+$textTitle:‘Rubik’, sans-serif;
+$textStyle: ‘Open Sans’, sans-serif;
+
+
+
+
+/* BREAKPOINTS */
+$tablet:768px;
+$pc:1200px;
+
+
+/* MIXIN: */
+
+@mixin forTablet {
+ @media all and (min-width: $tablet) { @content; }
+}
+
+@mixin forPc {
+ @media all and (min-width: $pc) { @content; }
+}
