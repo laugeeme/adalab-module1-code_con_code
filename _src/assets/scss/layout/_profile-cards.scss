@@ -1,57 +1,56 @@
-
-.e-container {
-    margin: 0 15px;
-
-}
 .adalaber-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.adalaber-container h3 {
-    text-align: center;
-    margin-top:10%;
-    margin-bottom: 8%;
-    font-family: rubik;
-    line-height: 1.88;
-    font-size: 1.4rem;
-    color: #099d8d;
-}
-.team {
-    margin-top: 2%;
-    margin-bottom: 6%;
-    text-align: center;
-    margin-left: 4%;
-    margin-right: 4%;
-}
-.rrss-box {
-    display: inline-block;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 1.25rem;
-}
-.rrss {
-    padding: 0.5rem;
-    max-height: 0.5rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem; 
-}
-.twit {
-    background: url(../img/twitter.png) no-repeat;
-    background-size: 100%;
-}
-.linked {
-    background: url(../img/linkedin.png) no-repeat;
-    background-size: 100%;
-}
-.git {
-    background: url(../img/github.png) no-repeat;
-    background-size: 100%;
-}
-.email {
-    background: url(../img/email.png) no-repeat;
-    background-size: 100%;
-}
+
+    & .e-container {
+        margin: 0 15px;
+
+        & h3 {
+        text-align: center;
+        margin-top:10%;
+        margin-bottom: 8%;
+        font-family: rubik;
+        line-height: 1.88;
+        font-size: 1.4rem;
+        color: #099d8d;
+        }
+        & .team {
+        margin-top: 2%;
+        margin-bottom: 6%;
+        text-align: center;
+        margin-left: 4%;
+        margin-right: 4%;
+        }
+        & .rrss-box {
+        display: inline-block;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 1.25rem;
+        
+        & .rrss {
+        padding: 0.5rem;
+        max-height: 0.5rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem; 
+        }
+        & .twit {
+        background: url(../img/twitter.png) no-repeat;
+        background-size: 100%;
+        }
+        & .linked {
+        background: url(../img/linkedin.png) no-repeat;
+        background-size: 100%;
+        }
+        & .git {
+        background: url(../img/github.png) no-repeat;
+        background-size: 100%;
+        }
+        & .email {
+        background: url(../img/email.png) no-repeat;
+        background-size: 100%;
+        }
+    }
 .pic img{
     border-radius: 0.25rem;
     border: 0.25rem solid rgba(00, 00, 00, 0.3);
@@ -92,3 +91,4 @@
     line-height: 2.35;
     margin: 0;
 }
+}}
