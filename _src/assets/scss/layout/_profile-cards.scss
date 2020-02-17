@@ -13,7 +13,7 @@
         font-family: rubik;
         line-height: 1.88;
         font-size: 1.4rem;
-        color: #099d8d;
+        color: $colorDark;
         }
         & .team {
         margin-top: 2%;
@@ -51,44 +51,46 @@
         background-size: 100%;
         }
     }
-.pic img{
-    border-radius: 0.25rem;
-    border: 0.25rem solid rgba(00, 00, 00, 0.3);
-    position: relative;
-    margin: auto;
-    width: 200px;
-    height: 200px;
+    .pic img{
+        border-radius: 0.25rem;
+        border: 0.25rem solid rgba(00, 00, 00, 0.3);
+        position: relative;
+        margin: auto;
+        width: 200px;
+        height: 200px;
+    }
+    .plaura img{
+        height:100%;
+    }
+    .pelvira img{
+        height:100%;
+    }
+    .plidia img{
+        height:100%;
+    }
+    .pmercy img{
+        height:100%;
+    }
+    .pana img{
+        height:100%;
+    }
+    .txt {
+        font-family: $textStyle;
+        font-size: 1rem;
+        line-height: 1.6;
+        color: $fontMain;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+
+            & h5 {
+            color: $fontSecond;
+            font-size: 1.15rem;
+            font-weight: lighter;
+            line-height: 2.35;
+            margin: 0;
+            }
+        }
+    }
 }
-.plaura img{
-    height:100%;
-}
-.pelvira img{
-    height:100%;
-}
-.plidia img{
-    height:100%;
-}
-.pmercy img{
-    height:100%;
-}
-.pana img{
-    height:100%;
-}
-.txt {
-    font-family: Open Sans, sans serif;
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #54585a;
-    padding-left: 2%;
-    padding-right: 2%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-.txt h5 {
-    color: black;
-    font-size: 1.15rem;
-    font-weight: lighter;
-    line-height: 2.35;
-    margin: 0;
-}
-}}
