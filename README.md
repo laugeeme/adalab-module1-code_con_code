@@ -1,4 +1,4 @@
-![Adalab](_src/assets/images/logo-adalab-80px.png)                ![Code Con Code](_src/assets/images/c3-logo-yellow.png)
+![Adalab](_src/assets/images/logo-adalab-80px.png)                ![Code Con Code](_src/assets/images/c3-logo-yellow80px.png)
 
 # Code Con Code
 
