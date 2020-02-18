@@ -1,22 +1,24 @@
-
 .e-container {
     margin: 0 15px;
 
 }
+
 .adalaber-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 .adalaber-container h3 {
     text-align: center;
-    margin-top:10%;
+    margin-top: 10%;
     margin-bottom: 8%;
     font-family: rubik;
     line-height: 1.88;
     font-size: 1.4rem;
     color: #099d8d;
 }
+
 .team {
     margin-top: 2%;
     margin-bottom: 6%;
@@ -24,35 +26,42 @@
     margin-left: 4%;
     margin-right: 4%;
 }
+
 .rrss-box {
     display: inline-block;
     flex-direction: row;
     justify-content: center;
     padding-top: 1.25rem;
 }
+
 .rrss {
     padding: 0.5rem;
     max-height: 0.5rem;
     margin-left: 0.5rem;
-    margin-right: 0.5rem; 
+    margin-right: 0.5rem;
 }
+
 .twit {
     background: url(/twitter.png) no-repeat;
     background-size: 100%;
 }
+
 .linked {
     background: url(/linkedin.png) no-repeat;
     background-size: 100%;
 }
+
 .git {
     background: url(/github.png) no-repeat;
     background-size: 100%;
 }
+
 .email {
     background: url(/email.png) no-repeat;
     background-size: 100%;
 }
-.pic img{
+
+.pic img {
     border-radius: 0.25rem;
     border: 0.25rem solid rgba(00, 00, 00, 0.3);
     position: relative;
@@ -60,21 +69,27 @@
     width: 200px;
     height: 200px;
 }
-.plaura img{
-    height:100%;
+
+.plaura img {
+    height: 100%;
 }
-.pelvira img{
-    height:100%;
+
+.pelvira img {
+    height: 100%;
 }
-.plidia img{
-    height:100%;
+
+.plidia img {
+    height: 100%;
 }
-.pmercy img{
-    height:100%;
+
+.pmercy img {
+    height: 100%;
 }
-.pana img{
-    height:100%;
+
+.pana img {
+    height: 100%;
 }
+
 .txt {
     font-family: Open Sans, sans serif;
     font-size: 1rem;
@@ -85,10 +100,104 @@
     margin-top: 3%;
     margin-bottom: 3%;
 }
+
 .txt h5 {
     color: black;
     font-size: 1.15rem;
     font-weight: lighter;
     line-height: 2.35;
     margin: 0;
+}
+
+@media all and (min-width:768px) {
+.e-container {
+    margin: 0 35px;
+}
+
+
+.adalaber-container h3 {
+    margin-top: 8%;
+    margin-bottom: 6%;
+    line-height: 1.88;
+    font-size: 1.7rem;
+}
+
+
+.team {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.txt {
+    font-size: 0.9rem;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 190%;
+}
+
+.txt h5 {
+    font-size: 1.3rem;
+}
+
+
+.lefty {
+    justify-content: flex-start;
+}
+
+
+.righty {
+    justify-content: flex-end;
+}
+
+
+.even {
+    text-align: left;
+}
+
+
+.odd {
+    text-align: right;
+}
+
+
+.elvira {
+    flex-direction: row-reverse;
+}
+
+
+.mercy {
+    flex-direction: row-reverse;
+}
+
+.rrss {
+    padding: 0.5rem;
+    max-height: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+p {
+    padding-bottom: 1rem;
+}
+
+
+}
+
+
+@media all and (min-width: 1200px) {
+    
+
+    .adalaber-container {
+        margin: auto;
+        max-width: 1200px;
+    }    
+    .rrss:hover { 
+    padding:0.8rem;
+    max-height: 0.9rem;
+    transition: 0.3s ease-in-out;
+    }
+
 }

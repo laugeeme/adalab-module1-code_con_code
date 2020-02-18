@@ -80,3 +80,42 @@
     /* min-width: 120px;
     max-width: 160px; */
 }
+
+
+
+@media all and (min-width:768px) {
+
+    .footer-wrapper footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        position: relative;
+        margin-right: 2.81rem;
+        margin-left: 2.81rem;
+        
+    }
+
+    .footer-wrapper footer aside {
+        font-size: 0.8rem;
+    }
+
+    .footer-img {
+        position: absolute;
+        width: 15%;
+        padding: 0px;
+        margin: 0px;
+        top: 10px;
+        left: -15px;
+        transform: translate(0.5rem, 4.5rem)
+    }
+
+    .footer-menu {
+        padding-top: 1.5rem;
+    }
+    .footer-menu ul li {
+        text-align: right;
+        line-height: 2rem;
+    }
+
+}
+ 

@@ -1,7 +1,8 @@
-.hero {
+.hero-contact {
     background: url(../images/foto-hero-contact1.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-color: black;
     background-position: bottom;
     display: flex;
     justify-content: center;
@@ -9,4 +10,28 @@
     height: 65vh;
 }
 
+
+@media all and (min-width:768px) {
+
+
+    .hero-contact {
+        justify-content: flex-start;
+        padding-left: 5%;
+        height: 35vh;
+    }
+
+    
+
+}
+
+
+@media all and (min-width: 1200px) {
+
+
+    .hero-contact {
+        justify-content: flex-start;
+        height: 75vh;
+    }
+
+}
 
