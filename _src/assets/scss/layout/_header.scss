@@ -2,28 +2,28 @@
     position: fixed;
     top: 0px;
     z-index: 999;
-    font-family: 'Rubik', sans-serif;
-}
-
-.nickname {
-    background-color: #099d8d;
+    font-family: $textTitle;
+  }
+  
+  .nickname {
+    background-color: $colorDark;
     opacity: 0.95;
     padding: 0.93rem;
     height: 3.75rem;
     width: 100vw;
-}
+  
+     h1 {
+      color:#ffffff;
+      text-align: center;
+      font-size: 0.93rem;
+      padding-top: 0.62rem;
+    }
+  }
 
 
-.nickname h1 {
-    color: white;
-    text-align: center;
-    font-size: 0.93rem;
-    padding-top: 0.62rem;
-}
+  .menu {
 
-
-.menu {
-    background-color: #14d9c4;
+    background-color:$colorLight;
     opacity: 0.9;
     padding-top: 0.93rem;
     font-size: 0.93rem;
@@ -33,23 +33,21 @@
     position: relative;
     top: 0;
     width: 100vw;
-}
-
-.menu ul li {
-
-    display: inline;
-    padding-right: 0.62rem;
-}
-
-
-.menu ul li a {
-    text-decoration: none;
-    color: white;
-    padding-top: 0.5rem;
-    padding-bottom: 0.43rem;
-    left: 1rem;
-    right: 1.06rem;
-}
+  
+    ul li {
+      display: inline;
+      padding-right: 0.62rem;
+  
+      a {
+        text-decoration: none;
+        color: $standardBackground;
+        padding-top: 0.5rem;
+        padding-bottom: 0.43rem;
+        left: 1rem;
+        right: 1.06rem;
+      }
+    }
+  }
 
 
 
