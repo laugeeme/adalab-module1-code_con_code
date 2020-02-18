@@ -1,0 +1,38 @@
+.form-container {
+    margin: 0 1.5625rem;
+
+    .form {
+        font-family: $textTitle;
+        color: $fontMain;
+        font-size: 0.875rem;
+        margin-top: 3.625rem;
+    }
+    .asterisk {
+        color: $colorDark;
+    }
+    input {
+        border: 1px solid $borderForm;
+        color: $borderForm;
+        width: 100%;
+        margin-top: 0.4375rem;
+        margin-bottom: 0.8125rem;
+        display: inline-block;
+        height: 2.8125rem;
+    }
+    .button {
+        background-color: $colorDark;
+        color: white;
+        font-family: $textStyle;
+        font-size: 1.25rem;
+        padding-top: 0.6875rem;
+        padding-bottom: 0.75rem;
+        border-radius: 0.25rem;
+        border: none;
+
+    }
+    textarea {
+        margin-top: 0.4375rem;
+        margin-bottom: 0.8125rem;
+        border: 1px solid $borderForm;
+    }
+}
