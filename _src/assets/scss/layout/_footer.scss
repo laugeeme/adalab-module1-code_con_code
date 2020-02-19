@@ -58,7 +58,7 @@
     }
 }
 
-@mixin forTablet {
+@include forTablet {
     .footer-wrapper footer {
         flex-direction: row;
         justify-content: space-between;
