@@ -4,6 +4,10 @@
     @include forTablet {
         margin: 0 10.1875rem;
     }
+    @include forPc {
+        margin: 0 18.75rem;
+    }
+
     form {
         font-family: $textTitle;
         color: $fontMain;
@@ -34,6 +38,7 @@
         border-radius: 0.25rem;
         margin-bottom: 3.75rem;
         border: none;
+        text-transform: uppercase;
 
         @include forTablet {
             width: 47%;
@@ -54,5 +59,27 @@
         padding-top: 0.6875rem;
         border: 1px solid $borderForm;
         width: 100%;
+    }
+
+    @include forPc {
+         
+    .connection-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .email-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 57%;
+        }
+        .tel-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 37%;
+        }
+    }
     }
 }
