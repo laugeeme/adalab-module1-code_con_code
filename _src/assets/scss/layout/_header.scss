@@ -4,8 +4,9 @@
     position: fixed;
     top: 0px;
     z-index: 999;
-  
     font-family: $textTitle;
+
+  
   }
   
   @mixin nickname (){
@@ -18,6 +19,11 @@
       color:$standardBackground;
       text-align: center;
       font-size: 0.93rem;
+      
+       & a{ 
+        text-decoration:none;
+        color:$standardBackground;
+      }
       
     }
   }
