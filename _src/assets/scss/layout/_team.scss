@@ -9,9 +9,10 @@
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 40px;
-    /* ajustar bien medida está a ojo */
-    /*  padding-bottom: 30px; */
+   /*  /* ajustar bien medida está a ojo */
+    /* padding-bottom: 30px;  */
     box-sizing: border-box;
+    
 
 }
 
@@ -59,7 +60,6 @@
 
 
 
-
 .diamond {
     width: 30px;
     height: 30px;
@@ -70,4 +70,38 @@
     margin-left: auto;
     margin-right: auto;
     top: 15px;
+}
+
+
+@media all and (min-width:768px) {
+
+
+    .team-container {
+        width: 100%;
+        padding-left: 45px;
+        padding-right: 45px;
+        padding-top: 45px;
+        padding-bottom: 30px;
+    }
+
+
+    .team-description {
+        max-height: 220px;
+
+    }
+
+}
+
+
+@media all and (min-width: 1200px) {
+
+
+    .team-container {
+        width: 100%;
+        padding-left: 300px;
+        padding-right: 300px;
+        padding-top: 45px;
+        padding-bottom: 60px;
+    }
+
 }
