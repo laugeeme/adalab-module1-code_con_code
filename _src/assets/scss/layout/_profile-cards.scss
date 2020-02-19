@@ -35,14 +35,14 @@
                 max-height: 0.5rem;
                 margin-left: 0.5rem;
                 margin-right: 0.5rem;
-                }
-                
+            }
+
             @include forPc {
-            & .rrss:hover{
-                    padding:0.8rem;
+                & .rrss:hover {
+                    padding: 0.8rem;
                     max-height: 0.9rem;
                     transition: 300ms ease-in-out;
-               
+
                 }
             }
 
@@ -189,5 +189,4 @@
     .adalaber-container .e-container {
         margin: 0 8.625rem;
     }
-
 }

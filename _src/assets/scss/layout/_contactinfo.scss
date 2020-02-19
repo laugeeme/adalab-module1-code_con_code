@@ -1,59 +1,60 @@
 .contact-info {
     height: 9.625rem;
-    margin-top: 30px;
+    margin-top: 1.875rem;
     display: flex;
     flex-direction: column;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
     align-items: center;
-    
+
+    @include forPc {
+        margin-top: 2.8125rem;
+    }
 }
 
 
 .contact-title {
-    width: 127px;
-    height: 45px;
-    padding-bottom: 15px;
-    
-    
+    width: 7.9375rem;
+    height: 2.8125rem;
+    padding-bottom: 0.9375rem;
 
     & h3 {
         font-family: $textTitle;
         font-size: 1.5rem;
         color: $colorDark;
-
     }
 }
 
 
 .contact-text {
-
-
     & p {
         font-family: $textStyle;
         font-size: 1rem;
         color: $fontMain;
-        line-height: 24px;
+        line-height: 1.5rem;
         text-align: center;
-        padding-left: 15px;
-        padding-right: 15px;
-
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem;
     }
 
+    @include forTablet {
+        width: 27.625rem;
+    }
+
+    @include forPc {
+        width: 37.5625rem;
+    }
 }
 
 .contact-rule {
-
-
     & p {
         font-family: $textStyle;
         font-size: 0.75rem;
         color: $fontMain;
-        line-height: 24px;
+        line-height: 1.5rem;
         text-align: center;
-        margin-top: 40px;;
+        margin-top: 2.5rem;
     }
-
 }
 
 .asterisk {
@@ -61,22 +62,3 @@
 }
 
 
-@media all and (min-width:768px) {
-    .contact-text {
-        width: 442px;
-    }
-
-}
-
-
-
-@media all and (min-width:1200px) {
-    .contact-info{
-        margin-top: 45px;
-    }
-
-    .contact-text{
-        width: 601px;
-    }
-    
-}
