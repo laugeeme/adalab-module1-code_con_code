@@ -11,27 +11,17 @@
 }
 
 
-@media all and (min-width:768px) {
-
-
-    .hero-contact {
-        justify-content: flex-start;
-        padding-left: 5%;
-        height: 35vh;
-    }
-
+.hero-contact {
     
-
-}
-
-
-@media all and (min-width: 1200px) {
-
-
-    .hero-contact {
-        justify-content: flex-start;
-        height: 75vh;
+    @media all and (min-width:768px) {
+    justify-content:flex-start;
+    padding-left: 5%;
+    height: 35vh;
     }
 
+    @media all and (min-width:1280px) {
+    justify-content:flex-start;
+    height: 35vh;
+    }
 }
 

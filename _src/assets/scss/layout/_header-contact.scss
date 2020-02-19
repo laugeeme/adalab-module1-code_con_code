@@ -1,0 +1,48 @@
+.header {
+  
+    @include header();
+
+  }
+  
+  .nickname {
+    
+      @include nickname();
+    }
+  
+  .menu {
+
+   @include menu();
+  }
+
+
+@media all and (min-width:$tablet) {
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        background-color: $colorDark;
+        opacity: 0.9;
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        top: 0;
+
+    }
+    .nickname h1 {
+        text-align: left;
+        margin-left: 2.81rem;
+        padding-bottom: 3.2rem;
+
+    }
+
+    .menu {
+        width: 100vw;
+        padding-top: 22.5px;
+        background-color:$colorDark;
+        opacity: 0.9;
+
+    }
+
+
+}

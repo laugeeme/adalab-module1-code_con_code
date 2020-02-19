@@ -1,27 +1,29 @@
-.header {
+
+
+  @mixin header () {
     position: fixed;
     top: 0px;
     z-index: 999;
+  
     font-family: $textTitle;
   }
   
-  .nickname {
+  @mixin nickname (){
     background-color: $colorDark;
     opacity: 0.95;
     padding: 0.93rem;
     height: 3.75rem;
     width: 100vw;
-  
-     h1 {
-      color:#ffffff;
+      h1 {
+      color:$standardBackground;
       text-align: center;
       font-size: 0.93rem;
-      padding-top: 0.62rem;
+      
     }
   }
 
 
-  .menu {
+  @mixin menu {
 
     background-color:$colorLight;
     opacity: 0.9;
@@ -34,17 +36,21 @@
     top: 0;
     width: 100vw;
   
-    ul li {
+       ul li {
       display: inline;
       padding-right: 0.62rem;
   
-      a {
-        text-decoration: none;
-        color: $standardBackground;
-        padding-top: 0.5rem;
-        padding-bottom: 0.43rem;
-        left: 1rem;
-        right: 1.06rem;
+           & a {
+           text-decoration:none;
+           color: $standardBackground;
+           padding-top: 0.5rem;
+           padding-bottom: 0.43rem;
+           left: 1rem;
+           right: 1.06rem;
+           &:hover{
+           color:#FF4500;
+
+        }
       }
     }
   }
@@ -52,13 +58,13 @@
 
 
 
-@media all and (min-width:768px) {
+@media all and (min-width:$tablet) {
 
     .header {
         display: flex;
         justify-content: space-between;
         align-content: center;
-        background-color: #099d8d;
+        background-color: $colorDark;
         opacity: 0.9;
         width: 100%;
         height: 60px;
@@ -69,13 +75,14 @@
     .nickname h1 {
         text-align: left;
         margin-left: 2.81rem;
+        padding-bottom: 3.2rem;
 
     }
 
     .menu {
         width: 100vw;
         padding-top: 22.5px;
-        background-color: #099d8d;
+        background-color:$colorDark;
         opacity: 0.9;
 
     }
