@@ -30,3 +30,4 @@ $pc:1200px;
 @mixin forPc {
  @media all and (min-width: $pc) { @content; }
 }
+
