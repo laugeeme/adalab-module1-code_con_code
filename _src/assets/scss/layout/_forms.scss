@@ -1,6 +1,9 @@
 .form-container {
     margin: 0 1.5625rem;
 
+    @include forTablet {
+        margin: 0 10.1875rem;
+    }
     form {
         font-family: $textTitle;
         color: $fontMain;
@@ -20,6 +23,7 @@
         height: 2.8125rem;
         padding-left: 0.9375rem;
     }
+
     .button {
         background-color: $colorDark;
         color: white;
@@ -31,6 +35,17 @@
         margin-bottom: 3.75rem;
         border: none;
 
+        @include forTablet {
+            width: 47%;
+            
+        }
+    }
+    .button-container {
+        @include forTablet {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
     }
     textarea {
         margin-top: 0.4375rem;
