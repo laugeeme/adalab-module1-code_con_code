@@ -10,13 +10,14 @@
   background-color: $colorDark;
   opacity: 0.95;
   padding: 0.93rem;
-  height: 3.75rem;
+  height: 3.75 rem;
   width: 100vw;
 
   h1 {
     color: $standardBackground;
     text-align: center;
     font-size: 0.93rem;
+    
 
     & a {
       text-decoration: none;
@@ -72,7 +73,7 @@
   .nickname {
     text-align: left;
     margin-left: 2.81rem;
-    padding-bottom: 3.2rem;
+    
   }
 
   .menu {
