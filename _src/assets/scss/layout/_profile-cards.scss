@@ -10,7 +10,7 @@
             text-align: center;
             margin-top: 10%;
             margin-bottom: 8%;
-            font-family: rubik;
+            font-family: $textTitle;
             line-height: 1.88;
             font-size: 1.4rem;
             color: $colorDark;
@@ -47,22 +47,22 @@
             }
 
             & .twit {
-                background: url(./twitter.png) no-repeat;
+                background: url(../icons/twitter.png) no-repeat;
                 background-size: 100%;
             }
 
             & .linked {
-                background: url(./linkedin.png) no-repeat;
+                background: url(../icons/linkedin.png) no-repeat;
                 background-size: 100%;
             }
 
             & .git {
-                background: url(./github.png) no-repeat;
+                background: url(../icons/github.png) no-repeat;
                 background-size: 100%;
             }
 
             & .email {
-                background: url(./email.png) no-repeat;
+                background: url(../icons/email.png) no-repeat;
                 background-size: 100%;
             }
         }
