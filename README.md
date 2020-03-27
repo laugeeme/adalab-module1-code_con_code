@@ -18,6 +18,11 @@ Code con Code es una web de desarrolladoras frontend junior donde presentamos lo
 - Nos gusta que nuestro código sea limpio.
 - Nos gusta trabajar juntas.
 
+## Como usar el repositorio:
+- Una vez bajado instala Node (npm install).
+- Instala Gulp (npm install gulp).
+-¡ A darle caña!
+
 ### Contacto
 hola@codeconcode.es
 
